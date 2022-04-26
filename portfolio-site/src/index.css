@@ -11,3 +11,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.myContainer {
+  background-image: linear-gradient(to right, #141e30, #243b55);
+  color: #fff;
+}
+
+.myHero {
+  background:rgba(255,255,255, 0.3);
+  
+  color: #fff;
+}
+.myIcons {
+  margin: 0 .5em;
+}
+.formContainer {
+  margin: 3em 0 0 0;
+}
+.cWhite {
+  color: #fff;
+}
+.cRed {
+  color: #ff0000;
+}
+.myNav {
+  color: #fff;
+  margin: 0 0 0 auto;
+}
+.myButton {
+  display: inline-block;
+  margin: 1em 0 0 0;
+}
+.aboutText {
+  text-align: center;
+}
+
+.card-center {
+  display: flex;
+  justify-content: around;
+  margin: auto;
+}
+
+.j-card {
+  margin: 20px;
+}
+.contactText {
+  margin: 4em 0 0 18%;
+}
+
+.aboutImg {
+  display: block;
+  margin: 2em auto;
+}
+
+.j-card-image {
+  border-radius: 10px;
+  width: 300px;
+  height: 480px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+.j-card-info {
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+.j-card-title {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.j-card-sub-title {
+  font-size: 16px;
+  margin: 0px;
+}
+
+.success-msg {
+  color: #57A773;
+  padding: 10px 15px;
+}
+
+.err-msg {
+  color: #EE6352;
+  padding: 10px 15px;
+}
+
+.carouselTitle {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 400;
+  letter-spacing: .05em;
+  padding: .5em 0 0 0;
+}
