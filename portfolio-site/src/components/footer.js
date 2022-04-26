@@ -2,6 +2,8 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import FB from '../assets/images/facebook.png'
+import Linkedin from '../assets/images/linkedin.png'
 
 function Footer() {
 
@@ -13,7 +15,19 @@ function Footer() {
                         James Lucas
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                    This site was Made by James Lucas
+                        <a target="_blank" rel="noreferrer" href="https://www.facebook.com/james.lucas.5/">
+                            <img style={{'height':"3em"}}  
+                                className="myIcons"  
+                                src={FB} alt="Facebook"
+                            /> 
+                        </a>
+
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/james-lucas-4b4019126/">
+                            <img style={{'height':"3em"}}  
+                                className="myIcons"  
+                                src={Linkedin} alt="Linkedin"
+                            /> 
+                        </a>          
                     </Col>
                 </Row>
             </Container>
@@ -22,3 +36,5 @@ function Footer() {
 }
 
 export default Footer;
+
+
